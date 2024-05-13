@@ -8,16 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hnovara/proyecto-integrador-etapa3.git"
-  },
-  "author": "Hernán Novara",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hnovara/proyecto-integrador-etapa3/issues"
-  },
-  "homepage": "https://github.com/hnovara/proyecto-integrador-etapa3#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
