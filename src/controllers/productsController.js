@@ -25,6 +25,7 @@ export const createProduct = async (req, res) => {
             }
         })
         
+        
         if (!image) {
             return res.status(400)
                 .json({
