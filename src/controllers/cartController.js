@@ -4,6 +4,7 @@ export const createCart = async (req, res) => {
     try {
         const newCart = await Cart.create(req.body);
 
+        
         res.json({
             ok: true,
             cart: newCart
